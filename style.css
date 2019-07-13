@@ -1,0 +1,121 @@
+/* write some css below*/
+/* */
+
+
+
+body {
+	font-family: Ubuntu;
+	margin: 0;
+}
+
+h1 {font-family: Source Serif Pro;
+	color:#FFFEF9;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h2 {
+	font-family: Playfair Display;
+	color:#FFFEF9;
+}
+
+h3 {
+	font-family: Ubuntu;
+	color:#931621;
+}
+
+p{
+	color: #931621;
+}
+	
+
+a	{
+	text-decoration: none;
+	color: #585123;
+	font-weight: bold;
+}
+
+a:hover {
+	color: white;
+}
+
+img	{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.btn-blue {
+	padding: 15px 25px;
+	margin: 30px;
+	border-radius: 15px;
+	background-color: #1A380F;
+	font-family: Ubuntu;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.btn-blue:hover {
+	background-color: #931621
+}
+
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("cartuja images/tino y caballo cortada.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 160px 0;
+	text-align: center;
+}
+
+#lacartuja {
+	position: absolute;
+  	top: 8px;
+  	left: 50px;
+  	font-size: 20px;
+}
+
+#centroecuestre {
+	text-align: center;
+	font-size: 30px;
+	font-family: Source Serif Pro;
+	font-weight: bold;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.card{
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	width: 500px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+#facebookbutton {
+	padding: 30px;
+}
+
+
+#footer {
+	font-size: 20px;
+	font-family: Ubuntu;
+	text-align: center;
+}
+
+#activities {
+	text-align: center;
+	font-size: 25px;
+	color: #931621
+	font-weight:bold;
+}
+
